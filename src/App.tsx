@@ -1,9 +1,10 @@
 import React from "react";
-
+import './styles.css'
+import Layout from "./layout";
 function App() {
   return (
-    <div className="App">
-      <h1>inicio</h1>
+    <div>
+    <Layout/>
     </div>
   );
 }
