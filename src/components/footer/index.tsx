@@ -1,17 +1,16 @@
 import React from "react";
 import logo from "./../../assets/img/spotify-logo.png";
+import face from "./../../assets/img/fac.png";
+import inst from "./../../assets/img/inst.webp";
+import tw from "./../../assets/img/tw.png";
 function Footer() {
   return (
     <div className="App">
-         <footer>
+      <footer>
         <div className="grid grid-cols-1 md:grid-cols-6 bg-black text-white p-4 md:p-20">
           <div className="md:col-span-1 pt-10 md:pt-0">
             <a href="/">
-              <img
-                src={logo}
-                alt="Spotify"
-                className="w-20 md:w-132px"
-              />
+              <img src={logo} alt="Spotify" className="w-20 md:w-132px" />
             </a>
           </div>
           <div className="md:col-span-1 pt-10 md:pt-4">
@@ -72,17 +71,17 @@ function Footer() {
             <ul className="flex md:justify-end">
               <li className="flex items-center justify-center text-2xl bg-gray-900 w-12 h-12 rounded-full hover:text-green-main mx-2">
                 <a href="/">
-                  <i className="fab fa-instagram"></i>
+                  <img src={inst} alt="instagram" />
                 </a>
               </li>
               <li className="flex items-center justify-center text-2xl bg-gray-900 w-12 h-12 rounded-full hover:text-green-main mx-2">
                 <a href="/">
-                  <i className="fab fa-twitter"></i>
+                  <img src={tw} alt="twitter" />
                 </a>
               </li>
               <li className="flex items-center justify-center text-2xl bg-gray-900 w-12 h-12 rounded-full hover:text-green-main mx-2">
                 <a href="/">
-                  <i className="fab fa-facebook-f"></i>
+                  <img src={face} alt="facebook" />
                 </a>
               </li>
             </ul>
