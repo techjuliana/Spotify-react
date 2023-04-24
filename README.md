@@ -8,9 +8,12 @@ Visão Tecnica do que encontrará no projeto:
 - Tailwind
 - TypeScript
 
-### Screen Spotify ⬇️
-<img src="" >
-<img src="" >
+### Screen Spotify WEB ⬇️
+<img src="https://github.com/techjuliana/Spotify-react/blob/main/design/1.png" >
+
+### Screen Spotify MOBILE ⬇️
+<img src="https://github.com/techjuliana/Spotify-react/blob/main/design/2.png" >
+<img src="https://github.com/techjuliana/Spotify-react/blob/main/design/3.png" >
 
 
 ## Getting Started
